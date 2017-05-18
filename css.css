@@ -25,6 +25,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,th,td,s{font-family:"å
     background-image: url('1.jpg');
     background-position: 50% 50%;
     background-size: cover;
+    border-radius: 5px;
 }
 ul{
     margin-left: 30px;
@@ -32,11 +33,15 @@ ul{
 img { width: auto; max-width: 100%; }
 .header{
     background-color: bisque;
-    line-height: 60px;
     text-indent: 26px;
     font-weight: bolder;
     font-size: 26px;
     font-style: italic;
+}
+.headCon{
+    line-height: 60px;
+    margin: 0 auto;
+
 }
 .left{
     float: left;
@@ -62,17 +67,22 @@ img { width: auto; max-width: 100%; }
     width: 100%;
 }
 @media only screen and (min-width: 1367px) {
-    .mainCon {
+    .mainCon,.headCon{
         width: 1300px;
+    }
+    .item{
+        width: 196px;
+        height: 122px;
+        border-radius: 10px;
     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
-    .mainCon {
+    .mainCon ,.headCon{
         width: 940px;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .mainCon {
+    .mainCon ,.headCon{
         width: 760px;
     }
 }
