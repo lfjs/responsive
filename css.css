@@ -93,7 +93,7 @@ img { width: auto; max-width: 100%; }
     .left{
         float: none;
         width: auto;
-        min-height: auto;
+        min-height: 0;
         margin-right: 0;
     }
     .mainCon {
